@@ -42,3 +42,4 @@ async def query(req: QueryRequest):
 @app.post("/ingest")
 async def ingest(req: IngestRequest):
     return {"ingested_chunks": pipeline.ingest(req.documents, req.metadata)}
+# exponential backoff on 429/503
