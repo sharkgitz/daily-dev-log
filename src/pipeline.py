@@ -40,3 +40,4 @@ class RAGPipeline:
         return {"question": question, "hits": hits, "count": len(hits)}
 # unified prompt prefix across query types
 # trailing whitespace in last chunk fixed
+# replaced subquery with CTE in ingest job
