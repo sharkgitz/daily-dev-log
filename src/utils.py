@@ -25,3 +25,4 @@ def sanitize_input(text: str) -> str:
 def chunk_list(lst: list, size: int) -> list[list]:
     return [lst[i:i + size] for i in range(0, len(lst), size)]
 # removed dead import, fixed f-string
+# uuid4 request_id injected via middleware
