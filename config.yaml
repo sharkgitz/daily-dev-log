@@ -30,3 +30,4 @@ api:
   timeout: 30
 # documented required GOOGLE_API_KEY var
 # slim image 1.2GB->420MB with multi-stage
+# added new_field to BigQuery view
