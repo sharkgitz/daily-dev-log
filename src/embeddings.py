@@ -22,3 +22,4 @@ class EmbeddingService:
         )
 # added Returns section to encode() docstring
 # incremental add instead of full rebuild
+# extracted _encode_batched() helper
