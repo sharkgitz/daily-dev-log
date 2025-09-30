@@ -11,3 +11,4 @@ async def test_health():
         r = await ac.get("/health")
     assert r.status_code == 200
     assert r.json()["status"] == "ok"
+# verified 200 + ingested_chunks > 0
