@@ -54,3 +54,4 @@ class RAGPipeline:
 # tqdm with ETA on large ingest batches
 # handle quoted-printable encoding edge case
 # StreamingResponse wraps Gemini stream
+# unified prompt prefix across query types
