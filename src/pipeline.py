@@ -55,3 +55,4 @@ class RAGPipeline:
 # handle quoted-printable encoding edge case
 # StreamingResponse wraps Gemini stream
 # unified prompt prefix across query types
+# trailing whitespace in last chunk fixed
