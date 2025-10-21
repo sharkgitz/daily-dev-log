@@ -56,3 +56,4 @@ class RAGPipeline:
 # StreamingResponse wraps Gemini stream
 # unified prompt prefix across query types
 # trailing whitespace in last chunk fixed
+# replaced subquery with CTE in ingest job
