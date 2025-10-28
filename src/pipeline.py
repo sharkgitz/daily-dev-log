@@ -58,3 +58,4 @@ class RAGPipeline:
 # trailing whitespace in last chunk fixed
 # replaced subquery with CTE in ingest job
 # tqdm wrapper around chunk embedding loop
+# migrated validators to model_validator
