@@ -34,3 +34,4 @@ api:
 # pip cache key on requirements hash
 # temperature 0.2->0.15
 # logging.level: WARNING in prod
+# documented required GOOGLE_API_KEY var
