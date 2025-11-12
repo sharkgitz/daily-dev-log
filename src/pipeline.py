@@ -61,3 +61,4 @@ class RAGPipeline:
 # migrated validators to model_validator
 # chunked read_csv, 40% RAM reduction
 # extracted SentimentAnalyser to own class
+# added urgency-language patterns list
