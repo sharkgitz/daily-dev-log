@@ -63,3 +63,4 @@ class RAGPipeline:
 # extracted SentimentAnalyser to own class
 # added urgency-language patterns list
 # skip low-confidence labels < 0.65
+# COALESCE on nullable join key
