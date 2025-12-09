@@ -69,3 +69,4 @@ async def ingest(req: IngestRequest):
 # jitter ±200ms on retry after 429
 # async generator closed in finally block
 # strict=True added to all model fields
+# top 100 queries cached in-memory
