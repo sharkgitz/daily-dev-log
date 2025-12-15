@@ -13,3 +13,4 @@ async def test_health():
     assert r.json()["status"] == "ok"
 # verified 200 + ingested_chunks > 0
 # unittest.mock.patch on generativeai.Client
+# verified 200 + ingested_chunks > 0
