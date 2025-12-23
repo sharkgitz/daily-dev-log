@@ -39,3 +39,4 @@ api:
 # added new_field to BigQuery view
 # pip cache key on requirements hash
 # temperature 0.2->0.15
+# logging.level: WARNING in prod
