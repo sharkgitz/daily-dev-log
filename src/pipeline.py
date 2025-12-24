@@ -69,3 +69,4 @@ class RAGPipeline:
 # del vectors after retriever.add() call
 # tqdm with ETA on large ingest batches
 # handle quoted-printable encoding edge case
+# StreamingResponse wraps Gemini stream
