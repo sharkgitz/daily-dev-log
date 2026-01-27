@@ -83,3 +83,4 @@ async def ingest(req: IngestRequest):
 # lifespan context flushes queue on SIGTERM
 # jitter ±200ms on retry after 429
 # async generator closed in finally block
+# strict=True added to all model fields
