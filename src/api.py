@@ -85,3 +85,4 @@ async def ingest(req: IngestRequest):
 # async generator closed in finally block
 # strict=True added to all model fields
 # top 100 queries cached in-memory
+# fallback: last-known cached answer on 504
