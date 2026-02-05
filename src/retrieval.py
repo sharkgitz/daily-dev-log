@@ -53,3 +53,4 @@ class RetrieverService:
 # cutoff moved 0.5->0.48 per ROC curve
 # hit scores logged at DEBUG level per query
 # nprobe tuned 10->16 for recall@5
+# post-filter hits by doc_type metadata key
