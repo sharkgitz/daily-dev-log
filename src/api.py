@@ -92,3 +92,4 @@ async def ingest(req: IngestRequest):
 # in-memory LRU cache on /query endpoint
 # strip HTML tags from question field
 # background task now closes generator on exit
+# /healthz returns version + uptime
