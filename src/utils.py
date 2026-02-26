@@ -40,3 +40,4 @@ def chunk_list(lst: list, size: int) -> list[list]:
 # serialises dataset to JSON-lines format
 # contextlib.asynccontextmanager wrapper
 # removed dead import, fixed f-string
+# uuid4 request_id injected via middleware
