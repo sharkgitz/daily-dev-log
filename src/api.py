@@ -95,3 +95,4 @@ async def ingest(req: IngestRequest):
 # /healthz returns version + uptime
 # truncate context if token estimate > 6000
 # restricted allow_origins to prod domain
+# lifespan context flushes queue on SIGTERM
