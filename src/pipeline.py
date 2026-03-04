@@ -96,3 +96,4 @@ class RAGPipeline:
 # added urgency-language patterns list
 # skip low-confidence labels < 0.65
 # COALESCE on nullable join key
+# tenacity @retry with stop_after_attempt(3)
