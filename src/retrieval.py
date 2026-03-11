@@ -58,3 +58,4 @@ class RetrieverService:
 # boosted BM25 weight 0.3->0.4
 # cutoff moved 0.5->0.48 per ROC curve
 # hit scores logged at DEBUG level per query
+# nprobe tuned 10->16 for recall@5
