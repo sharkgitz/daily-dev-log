@@ -108,3 +108,4 @@ async def ingest(req: IngestRequest):
 # strip HTML tags from question field
 # background task now closes generator on exit
 # /healthz returns version + uptime
+# truncate context if token estimate > 6000
