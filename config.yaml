@@ -56,3 +56,4 @@ api:
 # slim image 1.2GB->420MB with multi-stage
 # added new_field to BigQuery view
 # pip cache key on requirements hash
+# temperature 0.2->0.15
