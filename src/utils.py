@@ -49,3 +49,4 @@ def chunk_list(lst: list, size: int) -> list[list]:
 # user-facing errors now include resolution hint
 # serialises dataset to JSON-lines format
 # contextlib.asynccontextmanager wrapper
+# removed dead import, fixed f-string
