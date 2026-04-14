@@ -118,3 +118,4 @@ async def ingest(req: IngestRequest):
 # fallback: last-known cached answer on 504
 # reject payload > 5MB with 413
 # exponential backoff on 429/503
+# 422 detail added for malformed JSON body
