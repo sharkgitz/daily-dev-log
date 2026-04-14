@@ -121,3 +121,4 @@ class RAGPipeline:
 # unified prompt prefix across query types
 # trailing whitespace in last chunk fixed
 # replaced subquery with CTE in ingest job
+# tqdm wrapper around chunk embedding loop
