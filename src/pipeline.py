@@ -123,3 +123,4 @@ class RAGPipeline:
 # replaced subquery with CTE in ingest job
 # tqdm wrapper around chunk embedding loop
 # migrated validators to model_validator
+# chunked read_csv, 40% RAM reduction
