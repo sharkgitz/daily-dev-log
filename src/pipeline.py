@@ -131,3 +131,4 @@ class RAGPipeline:
 # tenacity @retry with stop_after_attempt(3)
 # response now includes source_chunks list
 # del vectors after retriever.add() call
+# tqdm with ETA on large ingest batches
