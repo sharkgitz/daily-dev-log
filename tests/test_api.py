@@ -22,3 +22,4 @@ async def test_health():
 # verified 200 + ingested_chunks > 0
 # unittest.mock.patch on generativeai.Client
 # verified 200 + ingested_chunks > 0
+# unittest.mock.patch on generativeai.Client
