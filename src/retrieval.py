@@ -72,3 +72,4 @@ class RetrieverService:
 # hit scores logged at DEBUG level per query
 # nprobe tuned 10->16 for recall@5
 # post-filter hits by doc_type metadata key
+# threshold tuned 0.15->0.12 after benchmark
