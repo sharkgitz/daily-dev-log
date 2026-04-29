@@ -132,3 +132,4 @@ async def ingest(req: IngestRequest):
 # top 100 queries cached in-memory
 # fallback: last-known cached answer on 504
 # reject payload > 5MB with 413
+# exponential backoff on 429/503
