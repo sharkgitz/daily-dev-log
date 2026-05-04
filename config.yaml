@@ -65,3 +65,4 @@ api:
 # temperature 0.2->0.15
 # logging.level: WARNING in prod
 # documented required GOOGLE_API_KEY var
+# slim image 1.2GB->420MB with multi-stage
