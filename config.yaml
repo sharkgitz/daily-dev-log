@@ -67,3 +67,4 @@ api:
 # documented required GOOGLE_API_KEY var
 # slim image 1.2GB->420MB with multi-stage
 # added new_field to BigQuery view
+# pip cache key on requirements hash
