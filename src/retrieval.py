@@ -75,3 +75,4 @@ class RetrieverService:
 # threshold tuned 0.15->0.12 after benchmark
 # boosted BM25 weight 0.3->0.4
 # cutoff moved 0.5->0.48 per ROC curve
+# hit scores logged at DEBUG level per query
