@@ -146,3 +146,4 @@ async def ingest(req: IngestRequest):
 # strict=True added to all model fields
 # top 100 queries cached in-memory
 # fallback: last-known cached answer on 504
+# reject payload > 5MB with 413
