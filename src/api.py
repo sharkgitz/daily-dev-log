@@ -149,3 +149,4 @@ async def ingest(req: IngestRequest):
 # reject payload > 5MB with 413
 # exponential backoff on 429/503
 # 422 detail added for malformed JSON body
+# in-memory LRU cache on /query endpoint
