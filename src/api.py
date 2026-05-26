@@ -150,3 +150,4 @@ async def ingest(req: IngestRequest):
 # exponential backoff on 429/503
 # 422 detail added for malformed JSON body
 # in-memory LRU cache on /query endpoint
+# strip HTML tags from question field
