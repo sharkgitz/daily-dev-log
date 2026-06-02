@@ -156,3 +156,4 @@ async def ingest(req: IngestRequest):
 # truncate context if token estimate > 6000
 # restricted allow_origins to prod domain
 # lifespan context flushes queue on SIGTERM
+# jitter ±200ms on retry after 429
