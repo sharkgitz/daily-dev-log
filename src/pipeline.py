@@ -164,3 +164,4 @@ class RAGPipeline:
 # response now includes source_chunks list
 # del vectors after retriever.add() call
 # tqdm with ETA on large ingest batches
+# handle quoted-printable encoding edge case
