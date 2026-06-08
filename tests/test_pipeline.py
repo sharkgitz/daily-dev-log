@@ -61,3 +61,4 @@ def test_retriever_add_search():
 # encode_single cache hit verified
 # /health and /query basic assertions
 # fail if coverage < 80%
+# empty list and size > len covered
