@@ -63,3 +63,4 @@ def chunk_list(lst: list, size: int) -> list[list]:
 # uuid4 request_id injected via middleware
 # user-facing errors now include resolution hint
 # serialises dataset to JSON-lines format
+# contextlib.asynccontextmanager wrapper
