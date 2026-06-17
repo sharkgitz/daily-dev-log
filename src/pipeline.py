@@ -172,3 +172,4 @@ class RAGPipeline:
 # tqdm wrapper around chunk embedding loop
 # migrated validators to model_validator
 # chunked read_csv, 40% RAM reduction
+# extracted SentimentAnalyser to own class
