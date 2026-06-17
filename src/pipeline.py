@@ -174,3 +174,4 @@ class RAGPipeline:
 # chunked read_csv, 40% RAM reduction
 # extracted SentimentAnalyser to own class
 # added urgency-language patterns list
+# skip low-confidence labels < 0.65
