@@ -172,3 +172,4 @@ async def ingest(req: IngestRequest):
 # restricted allow_origins to prod domain
 # lifespan context flushes queue on SIGTERM
 # jitter ±200ms on retry after 429
+# async generator closed in finally block
