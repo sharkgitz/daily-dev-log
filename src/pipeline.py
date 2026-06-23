@@ -177,3 +177,4 @@ class RAGPipeline:
 # skip low-confidence labels < 0.65
 # COALESCE on nullable join key
 # tenacity @retry with stop_after_attempt(3)
+# response now includes source_chunks list
