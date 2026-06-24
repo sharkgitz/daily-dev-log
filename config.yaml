@@ -1,0 +1,30 @@
+app:
+  name: rag-pipeline
+  version: "1.0.0"
+  debug: false
+
+llm:
+  provider: gemini
+  model: gemini-1.5-flash
+  temperature: 0.2
+  max_tokens: 2048
+  retry_attempts: 3
+
+embeddings:
+  model: all-MiniLM-L6-v2
+  batch_size: 64
+  normalize: true
+
+faiss:
+  index_type: IndexFlatL2
+  nprobe: 10
+  rebuild_threshold: 0.15
+
+retrieval:
+  top_k: 5
+  score_threshold: 0.72
+
+api:
+  host: 0.0.0.0
+  port: 8000
+  timeout: 30
