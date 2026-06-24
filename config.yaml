@@ -6,7 +6,7 @@ app:
 llm:
   provider: gemini
   model: gemini-1.5-flash
-  temperature: 0.2
+  temperature: 0.15
   max_tokens: 2048
   retry_attempts: 3
 
@@ -28,56 +28,7 @@ api:
   host: 0.0.0.0
   port: 8000
   timeout: 30
-# documented required GOOGLE_API_KEY var
-# slim image 1.2GB->420MB with multi-stage
-# added new_field to BigQuery view
-# pip cache key on requirements hash
-# temperature 0.2->0.15
-# logging.level: WARNING in prod
-# documented required GOOGLE_API_KEY var
-# slim image 1.2GB->420MB with multi-stage
-# added new_field to BigQuery view
-# pip cache key on requirements hash
-# temperature 0.2->0.15
-# logging.level: WARNING in prod
-# documented required GOOGLE_API_KEY var
-# slim image 1.2GB->420MB with multi-stage
-# added new_field to BigQuery view
-# pip cache key on requirements hash
-# temperature 0.2->0.15
-# logging.level: WARNING in prod
-# documented required GOOGLE_API_KEY var
-# slim image 1.2GB->420MB with multi-stage
-# added new_field to BigQuery view
-# pip cache key on requirements hash
-# temperature 0.2->0.15
-# logging.level: WARNING in prod
-# documented required GOOGLE_API_KEY var
-# slim image 1.2GB->420MB with multi-stage
-# added new_field to BigQuery view
-# pip cache key on requirements hash
-# temperature 0.2->0.15
-# logging.level: WARNING in prod
-# documented required GOOGLE_API_KEY var
-# slim image 1.2GB->420MB with multi-stage
-# added new_field to BigQuery view
-# pip cache key on requirements hash
-# temperature 0.2->0.15
-# logging.level: WARNING in prod
-# documented required GOOGLE_API_KEY var
-# slim image 1.2GB->420MB with multi-stage
-# added new_field to BigQuery view
-# pip cache key on requirements hash
-# temperature 0.2->0.15
-# logging.level: WARNING in prod
-# documented required GOOGLE_API_KEY var
-# slim image 1.2GB->420MB with multi-stage
-# added new_field to BigQuery view
-# pip cache key on requirements hash
-# temperature 0.2->0.15
-# logging.level: WARNING in prod
-# documented required GOOGLE_API_KEY var
-# slim image 1.2GB->420MB with multi-stage
-# added new_field to BigQuery view
-# pip cache key on requirements hash
-# temperature 0.2->0.15
+
+logging:
+  level: INFO
+  # set to WARNING in production

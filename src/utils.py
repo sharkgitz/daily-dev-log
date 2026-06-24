@@ -1,7 +1,12 @@
-"""Shared utilities — timing, caching, sanitisation."""
+"""Shared utilities — timing, sanitisation, chunking, serialisation."""
 
 from __future__ import annotations
-import re, time, logging, functools
+import re
+import time
+import uuid
+import json
+import logging
+import functools
 from typing import Callable
 
 logger = logging.getLogger(__name__)
@@ -18,53 +23,19 @@ def timer(fn: Callable) -> Callable:
 
 
 def sanitize_input(text: str) -> str:
+    """Strip control characters and normalise whitespace."""
     text = re.sub(r"[\x00-\x1f\x7f]", " ", text)
     return " ".join(text.split()).strip()
 
 
 def chunk_list(lst: list, size: int) -> list[list]:
     return [lst[i:i + size] for i in range(0, len(lst), size)]
-# removed dead import, fixed f-string
-# uuid4 request_id injected via middleware
-# user-facing errors now include resolution hint
-# serialises dataset to JSON-lines format
-# contextlib.asynccontextmanager wrapper
-# removed dead import, fixed f-string
-# uuid4 request_id injected via middleware
-# user-facing errors now include resolution hint
-# serialises dataset to JSON-lines format
-# contextlib.asynccontextmanager wrapper
-# removed dead import, fixed f-string
-# uuid4 request_id injected via middleware
-# user-facing errors now include resolution hint
-# serialises dataset to JSON-lines format
-# contextlib.asynccontextmanager wrapper
-# removed dead import, fixed f-string
-# uuid4 request_id injected via middleware
-# user-facing errors now include resolution hint
-# serialises dataset to JSON-lines format
-# contextlib.asynccontextmanager wrapper
-# removed dead import, fixed f-string
-# uuid4 request_id injected via middleware
-# user-facing errors now include resolution hint
-# serialises dataset to JSON-lines format
-# contextlib.asynccontextmanager wrapper
-# removed dead import, fixed f-string
-# uuid4 request_id injected via middleware
-# user-facing errors now include resolution hint
-# serialises dataset to JSON-lines format
-# contextlib.asynccontextmanager wrapper
-# removed dead import, fixed f-string
-# uuid4 request_id injected via middleware
-# user-facing errors now include resolution hint
-# serialises dataset to JSON-lines format
-# contextlib.asynccontextmanager wrapper
-# removed dead import, fixed f-string
-# uuid4 request_id injected via middleware
-# user-facing errors now include resolution hint
-# serialises dataset to JSON-lines format
-# contextlib.asynccontextmanager wrapper
-# removed dead import, fixed f-string
-# uuid4 request_id injected via middleware
-# user-facing errors now include resolution hint
-# serialises dataset to JSON-lines format
+
+
+def to_jsonlines(records: list[dict]) -> str:
+    """Serialise a list of dicts to newline-delimited JSON."""
+    return "\n".join(json.dumps(r, ensure_ascii=False) for r in records)
+
+
+def new_request_id() -> str:
+    return str(uuid.uuid4())[:8]
